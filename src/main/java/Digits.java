@@ -18,7 +18,6 @@ public class Digits
 		
 	}
 	    
-	}
 
 	public boolean isStrictlyIncreasing()
 	{ /* to be implemented in part (b) */
@@ -37,3 +36,4 @@ public class Digits
 		return digitList.toString();
 	}
 
+}
