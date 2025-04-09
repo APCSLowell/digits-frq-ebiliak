@@ -22,7 +22,7 @@ public class Digits
 
 	public boolean isStrictlyIncreasing()
 	{ /* to be implemented in part (b) */
-		for(int i = 0; i < digitlist.size(); i++){
+		for(int i = 0; i < digitlist.size; i++){
 			if(digitlist.get(i) >= digitlist.get(i+1)){
 				return false;
 			}
