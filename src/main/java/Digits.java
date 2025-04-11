@@ -13,7 +13,7 @@ public class Digits
 		while(rem > 0){
 			digit = rem % 10;
 			rem = rem /10;
-			digitList(0,digit);
+			digitList.add(0, digit);
 		}
 		
 	}
