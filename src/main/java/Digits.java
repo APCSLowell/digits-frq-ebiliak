@@ -25,9 +25,9 @@ public class Digits
 			if(digitList.get(i) >= digitList.get(i+1)){
 				return false;
 			}
-			return true;
-		}
 		
+		}
+		return true;
 
 	}
 	
